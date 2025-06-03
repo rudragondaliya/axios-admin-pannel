@@ -104,10 +104,8 @@ const Heropannel = ({productdata}) => {
                   </div>
                   <div className="col col-stats ms-3 ms-sm-0">
                     <div className="numbers">
-                      <p className="card-category">Stocks</p>
-                      <h4 className="card-title"> {productdata.map((val,idx) => (
-                      <span key={idx}>{val.stock}</span>
-                    ))}</h4>
+                      <p className="card-category">Sales</p>
+                      <h4 className="card-title">$1,345</h4>
                     </div>
                   </div>
                 </div>
