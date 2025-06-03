@@ -25,7 +25,7 @@ const App = () => {
 
   useEffect(()=>{
     handleFetch()
-  })
+  },[])
 
   const handleFetch=async()=>{
     let res = await axios.get(url);
